@@ -44,6 +44,8 @@
     width: 100%;
 }
 
+
+/* Break Points for Responsive design */
 @media screen and (max-width: 900px){
     * {
         border: 1px solid red;
