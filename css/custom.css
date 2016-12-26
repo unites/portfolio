@@ -4,14 +4,37 @@
 	align-content: left;
 }
 
+h1{
+	color: #2d3c49;
+}
+
+h2 {
+	color: #7d97ad;
+}
+
+h3 {
+	color: #2d3c49;
+	font-size:30px;
+}
+
+h4 {
+	color: #2d3c49;
+}
+
+p {
+	color: #2d3c49;
+}
+
+
+hr {
+	height: 4px;
+	background-color: #7d97ad;
+}
+
 /*Custom CSS for header*/
 
 .logo-box {
 
-}
-
-.master-box {
-	flex-wrap: wrap;
 }
 
 /*Allow resizing of Image via width*/
@@ -19,9 +42,6 @@
 	max-width: 100%;
 }
 
-.ctitle {
-
-}
 
 /*Media Queries*/
 
@@ -36,42 +56,5 @@
 
 /*Possibly use these to set breakpoints for Nexus 5 and ipad*/
 
-/* Custom, iPhone Retina */
-@media only screen and (min-width : 320px) {
-* {
-	border: 1px solid brown;
-}
-}
 
-/* Extra Small Devices, Phones */
-@media only screen and (min-width : 480px) {
-
-* {
-	border: 1px solid blue;
-}
-
-
-
-}
-
-/* Small Devices, Tablets */
-@media only screen and (min-width : 768px) {
-	* {
-	border: 1px solid red;
-}
-}
-
-/* Medium Devices, Desktops */
-@media only screen and (min-width : 992px) {
-	* {
-	border: 1px solid green;
-}
-}
-
-/* Large Devices, Wide Screens */
-@media only screen and (min-width : 1200px) {
-	* {
-	border: 1px solid purple;
-}
-}
 
