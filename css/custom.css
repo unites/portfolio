@@ -10,7 +10,7 @@
 
 }
 
-.text-box{
+.master-box {
 	flex-wrap: wrap;
 }
 
@@ -49,6 +49,8 @@
 * {
 	border: 1px solid blue;
 }
+
+
 
 }
 
