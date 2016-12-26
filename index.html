@@ -3,39 +3,49 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Jared</title>
-	<!-- Add the style sheet link -->
-	<!-- <link relcod="stylesheet" href="css/styles.css"> -->
-	<!-- Latest compiled and minified CSS -->
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-	<!-- Comments -->
+	<!-- CSS framework for Bootstrap 3.3.7 -->
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<!-- Addition of Custom CSS page -->
+	<link rel="stylesheet" type="text/css" href="css/custom.css">
 </head>
+
 <body>
+	<!-- Implment navbar, even though we don't have button we can add that later if wanted. -->
 	<div class="container">
-		<div class="masterhead">
-		<header class="col-sm-1">
-			<img width=100px height=100px src="us2.png" alt="Logo Image">
-		</header>
-		<header class="col-sm-11">
-			<h1 class="text-right">Jared</h1>
-			<h4 class="text-right">Portfolio and Development</h4>
-		</header>
-		</div>
-		<div class="row">
-			<img src="http://placehold.it/960x300" alt="" class="img1">
-		</div>
+		<!-- Header for the page along with Logo Graphic -->
+		<section class="">
+			<header class="logo-box">
+				<img src="http://placehold.it/100x100" alt="Logo Image" class="cust-logo">
+			</header>
+			<header class="text-box">
+				<h1 class="text-right">Jared</h1>
+				<h4 class="text-right">Portfolio and Development</h4>
+			</header>
+		</section>
+		<section class="row">
+			<article class="cimg">
+				<img src="http://placehold.it/970x300" alt="" class="cimg">
+			</article>
+
+		</section>
+
 			<h2>Heading</h2>
-		<div class="row">
-			<section class="col-sm-4">
-				<img src="http://placehold.it/300x200" alt="" class="img2">
-			</section>
-				<section class="col-sm-4">
-					<img src="http://placehold.it/300x200" alt="" class="img2">
-				</section>
-			<section class="col-sm-4">
-				<img src="http://placehold.it/300x200" alt="" class="img2">
-			</section>
-		</div>
+
+		<section class="row">
+			<article class="col-sm-4">
+				<img src="http://placehold.it/300x200" alt="" class="cimg">
+			</article>
+				<article class="col-sm-4">
+					<img src="http://placehold.it/300x200" alt="" class="cimg">
+				</article>
+			<article class="col-sm-4">
+				<img src="http://placehold.it/300x200" alt="" class="cimg">
+			</article>
+		</section>
+
 		<h2>Footer Content</h2>
+
 	</div>
 </body>
+
 </html>
