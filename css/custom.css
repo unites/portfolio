@@ -45,8 +45,13 @@ hr {
 /*Allow resizing of Image via width*/
 .cimg {
 	max-width: 100%;
+	box-shadow: 0px 4px 4px rgba(34,34,34,0.6);
 }
 
+.foot {
+	color: #7d97ad;
+	font-size: 10px;
+}
 
 /*Media Queries*/
 
